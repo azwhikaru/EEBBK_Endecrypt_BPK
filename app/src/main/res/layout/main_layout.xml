@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n 查看APK类型 (checkApkIfEncode)"
+    />
+
+    <EditText
+        android:textSize="20dp"
+        android:id="@+id/edittext_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/sdcard/Download/Test.apk"
+    />
+
+    <Button
+        android:id="@+id/button_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="check"
+    />
+<!--                 加密解密                -->
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n 解码APK类型 (decodeApkFile)"
+    />
+
+    <EditText
+        android:textSize="20dp"
+        android:id="@+id/decodebpk_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/sdcard/Download/Test.apk"
+    />
+
+    <Button
+        android:id="@+id/button_decode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decode"
+    />
+
+    <!-- MD5 APK -->
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n 检查Metadata (checkMd5Apk)"
+        />
+
+    <EditText
+        android:textSize="20dp"
+        android:id="@+id/checkmd5_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.eebbk.bbkpackageinstaller"
+        />
+
+    <Button
+        android:id="@+id/button_checkmd5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHECK" />
+
+
+</LinearLayout>
